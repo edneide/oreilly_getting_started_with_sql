@@ -1,0 +1,6 @@
+SELECT NAME,
+STREET_ADDRESS || ' ' || CITY || ', ' || STATE || ' ' || ZIP 
+AS SHIP_ADDRESS
+FROM CUSTOMER;
+
+
